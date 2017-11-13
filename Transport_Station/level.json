@@ -1,0 +1,26 @@
+{
+    "name": "Transport_Station",
+    "sceneName": "Transport_Station",
+    "description": "This is a test mod",
+    "district": "Harbour",
+    "location": "Basement",
+    "imagePath": "",
+    "assetBundles": [
+        "transport_station"
+    ],
+    "missionScripts": [
+        "Transport_Station_mission.lua"
+    ],
+    "preconditions": {
+        "keyArray": [],
+        "valueArray": []
+    },
+    "effects": {
+        "keyArray": [],
+        "valueArray": []
+    },
+    "rules": {
+        "keyArray": [],
+        "valueArray": []
+    }
+}
