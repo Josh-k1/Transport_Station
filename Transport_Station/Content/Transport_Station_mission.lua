@@ -260,10 +260,10 @@ Table key is used as the internalName value on Unity side.
 			internalName = "keycard_01",
 			dataColor = {1.0, 0.5, 0.0, 1.0 },
 		},
-		ChangeOutfit = {
-			internalName = "ChangeOutfit",
-			dataColor = {1.0, 0.5, 0.0, 1.0 },
-		},
+		--ChangeOutfit = {
+		--	internalName = "ChangeOutfit",
+		--	dataColor = {1.0, 0.5, 0.0, 1.0 },
+--		},
 		Sodamachine = {
 			internalName = "Sodamachine",
 			script= "SodaMachine.lua",
@@ -440,13 +440,13 @@ MissionObjects["CarriageComputer1"].OnStartInteracting = function (name)
 	end
 end
 -- outfit changer --
-MissionObjects["ChangeOutfit"].OnStartInteracting = function (name)
-	if name == Player.GetName()then
+--MissionObjects["ChangeOutfit"].OnStartInteracting = function (name)
+	--if name == Player.GetName()then
 --	RunMissionCommand(Doors.AssignKeyToCharacter("adminkey", mission.characters.joe))
-	 	Player.SetInvisible(true)
+	-- 	Player.SetInvisible(true)
 
-	end
-end
+--	end
+--end
 MissionObjects["Prototype"].OnStartInteracting = function (name)
 	if name == Player.GetName()then
 --	RunMissionCommand(Doors.AssignKeyToCharacter("adminkey", mission.characters.joe))
