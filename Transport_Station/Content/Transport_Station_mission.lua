@@ -22,72 +22,8 @@ mission = {
 			internalName = "Terrence",
 			characterType = "virtual",
 		},
-		guard01 = {
-			displayName = "THOMAS TEMPLATE",
-			internalName = "THOMAS",
-			characterType = "enemy",
-			prefab = "bigGuard",
-			profile  = "GuardTemplate.lua",
-			spawnpoint = "NewSpawn",
-			patrolroute = {
-				points = {
-					"PatrolPoint_0-004",
-					"PatrolPoint_0-005",
-					"PatrolPoint_0-006",
-					"PatrolPoint_0-007",
-				},
-				cyclic = false,
-		},
-	},
-		guard03 = {
-			displayName = "El Joe",
-			internalName = "Ejoe",
-			characterType = "enemy",
-			prefab = "bigGuard",
-			profile  = "GuardTemplate.lua",
-			spawnpoint = "GuardSpawn3",
-			patrolroute = {
-				points = {
-					"PatrolPoint_0-008",
-					"PatrolPoint_0-010",
-					"PatrolPoint_0-011",
-					"PatrolPoint_0-012",
-				},
-				cyclic = false,
-		},
-	},
-		guard04 = {
-			displayName = "Super Bob",
-			internalName = "Suprbob",
-			characterType = "enemy",
-			prefab = "bigGuard",
-			profile  = "GuardTemplate.lua",
-			spawnpoint = "GuardSpawn2",
-			patrolroute = {
-				points = {
-					"PatrolPoint_0-013",
-					"PatrolPoint_0-014",
-				},
-				cyclic = false,
-			},
-		},
 
-		guard02 = {
-			displayName = "Alan",
-			internalName = "Alan",
-			characterType = "enemy",
-			prefab = "bigGuard",
-			profile  = "GuardTemplate.lua",
-			spawnpoint = "GuardSpawn4",
-			patrolroute = {
-				points = {
-					"PatrolPoint_0-001",
-					"PatrolPoint_0-002",
-					"PatrolPoint_0-003",
-				},
-				cyclic = false,
-			},
-		},
+		
 	},
 
 -- Inventory items:
